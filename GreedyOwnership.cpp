@@ -1,3 +1,10 @@
+/**
+ * @brief Demonstrates the use of Weak Pointer to manage ownership of an expensive resource.
+ *
+ * The term "Greedy Ownership" is used to describe a scenario where a class holds a strong reference
+ * to a resource that it does not necessarily need to own for its entire lifespan, leading to
+ * inefficient resource management.
+ */
 #include <iostream>
 #include <memory>
 using namespace std;

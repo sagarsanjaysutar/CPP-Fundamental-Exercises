@@ -1,3 +1,10 @@
+/**
+ * @brief Demonstrates the use of Weak Pointer to resolve Circular Dependency between Parent and Child classes.
+ * 
+ * The term "Circular Dependency" refers to a situation where two or more classes hold strong references to each other,
+ * preventing their proper destruction and leading to memory leaks. This example illustrates how using weak pointers
+ * can help break this cycle and ensure that resources are released appropriately.
+ */
 #include <iostream>
 #include <memory>
 using namespace std;
